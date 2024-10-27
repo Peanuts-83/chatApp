@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BackEnd debug conf",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/back_chat_app",
+            "args": [
+                "main:app",
+                "--reload"
+            ],
+            // "jinja": true
+        },
+        {
+            "name": "Frontend debug conf",
+            "type": "debugpy",
+            "module": "main",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/front_chat_app",
+            "args": [
+                "main.py",
+                // "--reload"
+            ],
+            // "jinja": true
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+[submodule "chat_front"]
+	path = chat_front
+	url = git@github.com:Peanuts-83/chat_front.git
+[submodule "chat_back"]
+	path = chat_back
+	url = git@github.com:Peanuts-83/chat_back.git
