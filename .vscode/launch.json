@@ -9,7 +9,7 @@
             "type": "debugpy",
             "request": "launch",
             "module": "uvicorn",
-            "cwd": "${workspaceFolder}/back_chat_app",
+            "cwd": "${workspaceFolder}/chat_back",
             "args": [
                 "main:app",
                 "--reload"
@@ -21,7 +21,7 @@
             "type": "debugpy",
             "module": "main",
             "request": "launch",
-            "cwd": "${workspaceFolder}/front_chat_app",
+            "cwd": "${workspaceFolder}/chat_front",
             "args": [
                 "main.py",
                 // "--reload"
