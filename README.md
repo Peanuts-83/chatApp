@@ -24,6 +24,7 @@ Application desktop destinée à être utilisée ous Ubuntu et Windows afin de t
 **Phases de développement:**
 * App basique et tests de communication avec des onglets [Simple Websocket Client](https://chromewebstore.google.com/detail/simple-websocket-client/gobngblklhkgmjhbpbdlkglbhhlafjnh?hl=FR)
 * Ajout d'une fenetre initiale de connexion (credentials)
+* Ajout d'un AppManager pour centraliser la gestion des transitions entre fenêtres et éviter les importations circulaires.
 * Gestion des cookies
 * Utilisation d'un protocol sécurrisé de communication (wss)
 * Optimisation UI/UX
